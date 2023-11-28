@@ -1,0 +1,46 @@
+#countdown {
+  color: var(--color-light);
+}
+
+#countdown > ul > li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+#countdown > ul > li span {
+  display: block;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
+}
+
+.countdown-container {
+  padding: 24px 0;
+  padding-bottom: 44px;
+}
+
+@media all and (max-width: 768px) {
+  /* h1 { */
+  /*   font-size: calc(1.5rem * var(--smaller)); */
+  /* } */
+
+  #countdown > ul > li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+
+  #countdown > ul > li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+}
