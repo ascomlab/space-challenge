@@ -4,6 +4,14 @@
 
 ## Credit
 
+### Image License
+
+All images come from https://www.pexels.com/
+
+License: https://www.pexels.com/license/
+
+### Template
+
 Thanks for downloading this template!
 
 Template Name: Gp
