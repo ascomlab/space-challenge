@@ -284,6 +284,10 @@
     margin-top: 20px;
   }
 
+  .timeline li {
+    padding: 1em 0;
+  }
+
   .direction-l {
     position: relative;
     width: 429px;
