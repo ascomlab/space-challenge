@@ -722,7 +722,7 @@ section {
   color: #ffc451;
 }
 
-.features .icon-box p {
+.features .icon-box ul {
   font-size: 15px;
   color: #848484;
   margin-left: 60px;
@@ -751,7 +751,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #ffc451;
+  /* background: #ffc451; */
   border-radius: var(--md-rounded);
   display: flex;
   align-items: center;
@@ -1058,11 +1058,16 @@ section {
   margin-left: 50px;
 }
 
+.counts .content .count-box span::after {
+  content: " %";
+  font-weight: 500;
+}
+
 .counts .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
   /* font-family: "Raleway", sans-serif; */
-  font-size: 14px;
+  /* font-size: 14px; */
   color: var(--color-default);
 }
 
@@ -1071,7 +1076,7 @@ section {
   display: block;
   margin-top: 20px;
   color: #3b3b3b;
-  font-size: 15px;
+  /* font-size: 15px; */
   /* font-family: "Poppins", sans-serif; */
   transition: ease-in-out 0.3s;
 }
