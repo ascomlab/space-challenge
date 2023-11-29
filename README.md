@@ -2,6 +2,24 @@
 
 ประกวดแนวคิดนวัตกรรมและความเป็นไปได้ทางธุรกิจภายใต้อุตสาหกรรมอวกาศ ปี 2566
 
+## How-to
+
+### How to change countdown date?
+
+Update `endDate` variable to change the countdown date in `assets/js/countdown.js`.
+
+```js
+var endDate = "12/03/2023";  // format mm/dd/yyyy
+
+(function () {
+  const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+// ...
+```
+
 ## Credit
 
 ### Image License
