@@ -43,4 +43,12 @@
   #countdown > ul > li span {
     font-size: calc(3.375rem * var(--smaller));
   }
+
+  #countdown > ul > li {
+    padding: 12px 14px;
+  }
+
+  #countdown > ul {
+    padding-left: 0;
+  }
 }
