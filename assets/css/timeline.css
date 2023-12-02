@@ -151,7 +151,7 @@
   z-index: 14;
   line-height: 1em;
   vertical-align: middle;
-  color: #fff;
+  color: var(--color-bg-secondary);
 }
 
 .direction-l .time-wrapper {
