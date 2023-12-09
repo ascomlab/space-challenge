@@ -181,7 +181,7 @@ a:hover {
 .get-started-btn {
   color: #fff;
   border-radius: var(--md-rounded);
-  padding: 7px 25px 8px 25px;
+  padding: 8px 25px 8px 25px;
   white-space: nowrap;
   transition: 0.3s;
   font-size: 14px;
@@ -196,7 +196,7 @@ a:hover {
 
 @media (max-width: 992px) {
   .get-started-btn {
-    padding: 7px 20px 8px 20px;
+    padding: 8px 20px 8px 20px;
     margin-right: 15px;
   }
 }
@@ -531,6 +531,12 @@ section {
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+  section {
+    padding: 30px 0;
+  }
+}
+
 .section-title {
   padding-bottom: 40px;
 }
@@ -569,14 +575,13 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-#about {
-  padding-top: 80px;
-}
 
 .about .content h3 {
   font-weight: 700;
   font-size: 34px;
   /* font-family: "Poppins", sans-serif; */
+  margin-top: 16px;
+  margin-bottom: 24px;
 }
 
 .about .content ul {
@@ -623,6 +628,20 @@ section {
   color: var(--color-default);
 }
 
+.about .content a.btn {
+  background: #ffc451;
+  border: 0;
+  padding: 10px 24px;
+  color: #151515;
+  transition: 0.4s;
+  border-radius: var(--md-rounded);
+  font-weight: 600;
+}
+
+.about .content a.btn:hover {
+  background: #ffcd6b;
+}
+
 
 /*--------------------------------------------------------------
 # Sponsors Section
@@ -630,12 +649,6 @@ section {
 #supporters {
   /* padding: 60px 0; */
   padding-bottom: 10px;
-}
-
-#supporters .supporters-wrap {
-  /* border-top: 1px solid #e0e5fa; */
-  /* border-left: 1px solid #e0e5fa; */
-  /* margin-bottom: 30px; */
 }
 
 #supporters .supporter-logo {
@@ -655,9 +668,25 @@ section {
 }
 
 #supporters img {
-  /* filter: grayscale(100); */
   max-width: 120px;
+  /* filter: grayscale(100); */
   transition: all 0.4s ease-in-out;
+}
+
+#supporters img.width-logo {
+  max-width: 190px;
+}
+
+@media (max-width: 640px) {
+  #supporters img {
+    /* filter: grayscale(100); */
+    max-width: 64px;
+    transition: all 0.4s ease-in-out;
+  }
+
+  #supporters img.width-logo {
+    max-width: 96px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1023,10 +1052,6 @@ section {
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
-.counts .content {
-  padding: 30px 0;
-}
-
 .counts .content h3 {
   font-weight: 700;
   font-size: 34px;
@@ -1063,6 +1088,21 @@ section {
   font-weight: 500;
 }
 
+.counts .content h4 {
+  font-size: 32px;
+  line-height: 30px;
+  display: block;
+  font-weight: 700;
+  color: var(--color-light);
+  margin-left: 50px;
+}
+
+.counts .content ul.scope-list {
+  padding: 18px 0 0 0;
+  margin-left: 64px;
+  color: var(--color-default);
+}
+
 .counts .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
@@ -1089,6 +1129,17 @@ section {
   background: url("../img/counts-img.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
+}
+
+.counts .content button.nav-link.active {
+  background-color: var(--color-primary);
+  color: var(--color-bg-primary);
+  font-weight: 600;
+}
+
+.counts .content button.nav-link {
+  color: var(--color-primary);
+  font-weight: 600;
 }
 
 @media (max-width: 991px) {
@@ -1335,7 +1386,7 @@ section {
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--color-default);
 }
 
