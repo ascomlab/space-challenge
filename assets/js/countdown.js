@@ -1,4 +1,4 @@
-var endDate = "01/02/2024";  // format mm/dd/yyyy
+var endDate = "02/01/2024";  // format mm/dd/yyyy
 
 (function () {
   const second = 1000,
