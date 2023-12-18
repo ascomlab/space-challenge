@@ -67,9 +67,15 @@
     <div class="container d-flex align-items-center justify-content-lg-between">
 
       <!-- <h1 class="logo me-auto me-lg-0"><a href="index.html">SpaceQuest<span>.</span></a></h1> -->
-      <a href="index.html" class="logo me-auto me-lg-0">
-        <img src="assets/img/quest2024-logo.png" class="img-fluid" alt="" />
-      </a>
+      <div class="d-flex align-items-center logo me-auto me-lg-0">
+        <a href="index.html">
+          <img src="assets/img/quest2024-logo.png" class="img-fluid" alt="" />
+        </a>
+        <i class="bi bi-slash-lg mx-1 mx-lg-2" style="transform: rotate(-30deg); color: gray;"></i>
+        <a href="index.html">
+          <img src="assets/img/supporters/nt-logo-full.png" class="img-fluid" width="96px" alt="" />
+        </a>
+      </div>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -78,10 +84,33 @@
           <ul>
             <!-- <li><a class="nav-link scrollto active" href="#hero">Home</a></li> -->
             <!-- <li><a class="nav-link scrollto" href="#about">การแข่งขัน</a></li> -->
-            <li><a class="nav-link scrollto" href="#services">ทุนการศึกษาและรางวัล</a></li>
-            <li><a class="nav-link scrollto" href="#counts">เกณฑ์พิจารณา</a></li>
-            <li><a class="nav-link scrollto " href="#cta">ไทม์ไลน์</a></li>
-            <li><a class="nav-link scrollto " href="#scope">ขอบเขตเทคโนโลยี</a></li>
+            <!-- <li><a class="nav-link scrollto" href="#services">ทุนการศึกษาและรางวัล</a></li> -->
+            <!-- <li><a class="nav-link scrollto" href="#counts">เกณฑ์พิจารณา</a></li> -->
+            <!-- <li><a class="nav-link scrollto " href="#cta">ไทม์ไลน์</a></li> -->
+            <!-- <li><a class="nav-link scrollto " href="#scope">ขอบเขตเทคโนโลยี</a></li> -->
+            <li class="dropdown"><a><span>ที่มาโครงการ</span><i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="#">แนวคิดงาน</a></li>
+                <li><a href="#">วัตถุประสงค์งาน</a></li>
+                <li><a href="#">ความคาดหวังและผลลัพธ์</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a><span>กติกาและวิธีการสมัคร</span><i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="#about">คุณสมบัติผู้เข้าร่วม</a></li>
+                <li><a href="#">หัวข้อที่ใช้ร่วมโครงการ</a></li>
+                <li><a href="#features">ขั้นตอนการสมัคร</a></li>
+                <li><a href="#counts">เกณฑ์การพิจารณา</a></li>
+                <li><a href="#services">ทุนการศึกษาและรางวัล</a></li>
+                <li><a href="#cta">ไทมไลน์ของโครงการ</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a><span>ขอบเขตเทคโนโลยี</span><i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="#scope">ขอบเขตเทคโนโลยี</a></li>
+                <li><a href="#">แหล่งศึกษาข้อมูล</a></li>
+              </ul>
+            </li>
             <li><a class="nav-link scrollto" href="#contact">ติดต่อเรา</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
@@ -134,7 +163,7 @@
       <div class="container" data-aos="zoom-in">
         <div class="row align-items-center justify-content-center no-gutters supporters-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
           <div class="col-4">
-            <div class="supporter-logo">
+            <div class="supporter-logo seperate">
               <a target="_blank" href="https://www.ntsatellite.net/"><img src="assets/img/supporters/nt-logo.png" class="img-fluid" alt="NT Satellite Icon" /></a>
             </div>
           </div>
@@ -152,13 +181,13 @@
             </div>
           </div>
           <div class="col-4">
-            <div class="supporter-logo">
-              <a target="_blank" href="https://iaai.kmitl.ac.th/ecstar/"><img src="assets/img/supporters/ECSTAR-logo.png" class="img-fluid" alt="ECSTAR Logo" /></a>
+            <div class="supporter-logo seperate-both">
+              <a target="_blank" href="https://iaai.kmitl.ac.th/"><img src="assets/img/supporters/iaai-logo.png" class="img-fluid" alt="IAAI Logo" /></a>
             </div>
           </div>
           <div class="col-4">
             <div class="supporter-logo">
-              <a target="_blank" href="https://iaai.kmitl.ac.th/"><img src="assets/img/supporters/iaai-logo.png" class="img-fluid" alt="IAAI Logo" /></a>
+              <a target="_blank" href="https://iaai.kmitl.ac.th/ecstar/"><img src="assets/img/supporters/ECSTAR-logo.png" class="img-fluid" alt="ECSTAR Logo" /></a>
             </div>
           </div>
         </div>
@@ -276,11 +305,11 @@
             <div class="icon-box">
               <div class="icon">
                 <!-- <i class="bx bxl-dribbble"></i> -->
-                <img src="assets/img/top-10-medal.png" width="48" alt="">
+                <img src="assets/img/top-10-medal.png" width="64" alt="">
               </div>
               <h4>เข้ารอบ 10 ทีมสุดท้าย</h4>
               <p class="mb-3">(รอบที่ 1)</p>
-              <p>ทุนการศึกษามูลค่า <strong>15,000 บาท</strong> พร้อมประกาศนียบัตร</p>
+              <p>เงินสนับสนุนการผลิตผลงานมูลค่า <strong>15,000 บาท</strong> พร้อมประกาศนียบัตร</p>
             </div>
           </div>
         </div>
