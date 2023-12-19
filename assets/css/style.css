@@ -384,8 +384,8 @@ a:hover {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #151515;
-  background-color: #ffc451;
+  color: var(--color-dark) !important;
+  background-color: var(--color-primary);
 }
 
 .navbar-mobile .getstarted,
