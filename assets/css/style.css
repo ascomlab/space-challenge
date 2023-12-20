@@ -668,12 +668,12 @@ section {
   /* height: 160px; */
 }
 
-#supporters .supporter-logo.seperate {
+#supporters .seperate {
   border-right: 0.5px solid grey;
 }
 
 
-#supporters .supporter-logo.seperate-both {
+#supporters .seperate-both {
   border-right: 0.5px solid grey;
   border-left: 0.5px solid grey;
 }
