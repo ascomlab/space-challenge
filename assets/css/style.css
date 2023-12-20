@@ -1739,7 +1739,20 @@ button[type=submit]:hover {
 .hero-gradient {
   position: absolute;
   bottom: 0;
-  height: 80px;
+  height: 86px;
   width: 100%;
   background: linear-gradient(0deg, rgba(12,10,9,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+.seperator {
+  width: 2px;
+  height: 80px;
+  background-color: grey;
+  border-radius: 9999px;
+}
+
+@media (max-width: 640px) {
+  .seperator {
+    height: 44px;
+  }
 }
