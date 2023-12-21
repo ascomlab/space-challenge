@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 :root {
-  --color-primary: #ffc451;
+  --color-primary: rgb(255, 209, 0);
   --color-default: #d1d5db;
   --color-light: #e5e7eb;
   --color-dark: #52525b;
@@ -31,7 +31,7 @@ body {
 }
 
 a {
-  color: #ffc451;
+  color: var(--color-primary);
   text-decoration: none;
 }
 
@@ -59,7 +59,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ffc451;
+  background: var(--color-primary);
   width: 40px;
   height: 40px;
   border-radius: var(--md-rounded);
@@ -77,7 +77,7 @@ a:hover {
 }
 
 .back-to-top:hover i {
-  color: #ffc451;
+  color: var(--color-primary);
 }
 
 .back-to-top.active {
@@ -104,7 +104,7 @@ a:hover {
   position: fixed;
   top: calc(50% - 0px);
   left: calc(50% - 30px);
-  border: 6px solid #ffc451;
+  border: 6px solid var(--color-primary);
   border-top-color: #151515;
   border-bottom-color: #151515;
   border-radius: 50%;
@@ -161,7 +161,7 @@ a:hover {
 }
 
 #header .logo a span {
-  color: #ffc451;
+  color: var(--color-primary);
 }
 
 #header .logo img {
@@ -190,7 +190,7 @@ a:hover {
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
-  border: 2px solid #ffc451;
+  border: 2px solid var(--color-primary);
 }
 
 .get-started-btn:hover {
@@ -251,7 +251,7 @@ a:hover {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffc451;
+  color: var(--color-primary);
 }
 
 .navbar .dropdown ul {
@@ -288,7 +288,7 @@ a:hover {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  background-color: #ffc451;
+  background-color: var(--color-primary);
   color: var(--color-dark);
 }
 
@@ -465,7 +465,7 @@ a:hover {
 }
 
 #hero h1 span {
-  color: #ffc451;
+  color: var(--color-primary);
 }
 
 #hero h2 {
@@ -485,7 +485,7 @@ a:hover {
 #hero .icon-box i {
   font-size: 32px;
   line-height: 1;
-  color: #ffc451;
+  color: var(--color-primary);
 }
 
 #hero .icon-box h3 {
@@ -503,11 +503,11 @@ a:hover {
 }
 
 #hero .icon-box h3 a:hover {
-  color: #ffc451;
+  color: var(--color-primary);
 }
 
 #hero .icon-box:hover {
-  border-color: #ffc451;
+  border-color: var(--color-primary);
 }
 
 @media (min-width: 1024px) {
@@ -604,7 +604,7 @@ section {
   font-size: 20px;
   left: 0;
   top: -3px;
-  color: #ffc451;
+  color: var(--color-primary);
 }
 
 .about .content p.problem {
@@ -634,7 +634,7 @@ section {
 }
 
 .about .content a.btn {
-  background: #ffc451;
+  background: var(--color-primary);
   border: 0;
   padding: 10px 24px;
   color: #151515;
@@ -737,7 +737,7 @@ section {
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc451;
+  background-color: var(--color-primary);
 }
 
 /*--------------------------------------------------------------
@@ -765,7 +765,7 @@ section {
 .features .icon-box i {
   font-size: 48px;
   float: left;
-  color: #ffc451;
+  color: var(--color-primary);
 }
 
 .features .icon-box ul {
@@ -797,7 +797,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  /* background: #ffc451; */
+  /* background: var(--color-primary); */
   border-radius: var(--md-rounded);
   display: flex;
   align-items: center;
@@ -824,7 +824,7 @@ section {
 }
 
 .services .icon-box h4 a:hover {
-  color: #ffc451;
+  color: var(--color-primary);
 }
 
 .services .icon-box p {
@@ -873,8 +873,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #ffc451;
-  border-color: #ffc451;
+  background: var(--color-primary);
+  border-color: var(--color-primary);
   color: #151515;
 }
 
@@ -909,7 +909,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #151515;
-  background: #ffc451;
+  background: var(--color-primary);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -986,7 +986,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #ffc451;
+  color: var(--color-primary);
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1022,11 +1022,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #ffc451;
+  border: 1px solid var(--color-primary);
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc451;
+  background-color: var(--color-primary);
 }
 
 .portfolio-details .portfolio-info {
@@ -1087,7 +1087,7 @@ section {
 .counts .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #ffc451;
+  color: var(--color-primary);
   float: left;
 }
 
@@ -1272,7 +1272,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc451;
+  background-color: var(--color-primary);
   opacity: 1;
 }
 
@@ -1336,7 +1336,7 @@ section {
 
 .team .member .social a:hover {
   color: #151515;
-  background: #ffc451;
+  background: var(--color-primary);
 }
 
 .team .member .social i {
@@ -1475,7 +1475,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #ffc451;
+  border-color: var(--color-primary);
 }
 
 .contact .php-email-form input {
@@ -1487,7 +1487,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #ffc451;
+  background: var(--color-primary);
   border: 0;
   padding: 10px 24px;
   color: #151515;
@@ -1587,7 +1587,7 @@ section {
 }
 
 #footer .footer-top .footer-info h3 span {
-  color: #ffc451;
+  color: var(--color-primary);
 }
 
 #footer .footer-top .footer-info p {
@@ -1614,7 +1614,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #ffc451;
+  background: var(--color-primary);
   color: #151515;
   text-decoration: none;
 }
@@ -1639,7 +1639,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ffc451;
+  color: var(--color-primary);
   font-size: 18px;
   line-height: 1;
 }
@@ -1662,7 +1662,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #ffc451;
+  color: var(--color-primary);
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1688,7 +1688,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #ffc451;
+  background: var(--color-primary);
   color: #151515;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -1726,7 +1726,7 @@ section {
 }
 
 button[type=submit] {
-  background: #ffc451;
+  background: var(--color-primary);
   border: 0;
   padding: 10px 24px;
   color: #151515;
