@@ -683,24 +683,26 @@ section {
 }
 
 #supporters img {
-  max-width: 120px;
   /* filter: grayscale(100); */
   transition: all 0.4s ease-in-out;
 }
 
 #supporters img.width-logo {
-  max-width: 190px;
+  max-width: 120px;
+}
+
+#supporters img.full-logo {
+  max-width: 640px;
 }
 
 @media (max-width: 640px) {
-  #supporters img {
-    /* filter: grayscale(100); */
-    max-width: 64px;
-    transition: all 0.4s ease-in-out;
+
+  #supporters img.full-logo {
+    width: 100%;
   }
 
   #supporters img.width-logo {
-    max-width: 96px;
+    max-width: 64px;
   }
 }
 
@@ -1751,8 +1753,23 @@ button[type=submit]:hover {
   border-radius: 9999px;
 }
 
+.seperator-nav {
+  width: 1.5px;
+  height: 32px;
+  background-color: whitesmoke;
+  border-radius: 9999px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
 @media (max-width: 640px) {
   .seperator {
     height: 44px;
   }
+}
+
+.img-article { 
+  max-height: 480px;
+  width: 100%;
+  object-fit: cover;
 }
