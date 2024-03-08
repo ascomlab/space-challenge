@@ -1780,3 +1780,7 @@ button[type=submit]:hover {
   object-fit: none;
   object-position: 50% 25%;
 }
+
+img {
+  max-width: 960px !important;
+}
