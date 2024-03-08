@@ -510,6 +510,34 @@ a:hover {
   border-color: var(--color-primary);
 }
 
+#hero .container a.cta-btn {
+  /* font-family: "Raleway", sans-serif; */
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: var(--md-rounded);
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid var(--color-default);
+  color: var(--color-default);
+}
+
+#hero .container a.btn {
+  background: var(--color-primary);
+  border: 0;
+  padding: 10px 24px;
+  color: #151515;
+  transition: 0.4s;
+  border-radius: var(--md-rounded);
+  font-weight: 600;
+}
+
+#hero .container a.btn:hover {
+  background: #ffcd6b;
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
